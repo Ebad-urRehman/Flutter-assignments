@@ -1,3 +1,11 @@
+/*
+Problem Statement : 
+Write arrow functions for the following equations:
+A =x2 + 2xy+p.Z
+Z = a2 + 4.B2 – 8b + 2a
+B =n2+qn+1
+*/
+
 import 'dart:math';
 
 void main() {

@@ -1,3 +1,16 @@
+/*
+Problem Statement : 
+Initialize a list of Map with the following items:
+{"position": 10, "name": "Jawad"},
+{"position": 33, "name": "Faisal"},
+{"position": 4, "name": "Zahid"},
+{"position": 6, "name": "Ali"},
+{"position": 9, "name": "Noman"},
+{"position": 4, "name": "Ben"},
+Sort the list with first with respect to position, and then with respect to name in case the positions
+are same.
+*/
+
 void main() {
   List<Map> listOfMaps = [
     {"position": 10, "name": "Jawad"},

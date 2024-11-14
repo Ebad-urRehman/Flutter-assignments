@@ -1,3 +1,14 @@
+/*
+Problem Statement :
+Given the following list of objects, you need to write myObjects.where().forEach() function, so that
+the name, age, and marks of those students are printed on screen whose age is greater than 30 and
+name is Noman or Faisal.
+Student(name:"Ali", age:45, marks:32 ),
+Student(name:"Faisal", age:41, marks:43 ),
+Student(name:"Noman", age:11, marks: 43),
+Student(name:"Faisal", age:8, marks:43)
+*/
+
 void main() {
   List<Student> myObjects = [];
   myObjects.add(Student(name: "Ali", age: 45, marks: 32));

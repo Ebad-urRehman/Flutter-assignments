@@ -1,3 +1,14 @@
+/*
+Problem Statement : 
+Suppose you have a range of numbers, and their respective grades:
+10 – 30, grade E
+31 – 50, grade D
+51 – 70, grade C
+71 – 90, grade B
+91 – 100, grade A
+Write a switch – case statement, that takes the marks and show the grade.
+*/
+
 import 'dart:io';
 
 void main() {

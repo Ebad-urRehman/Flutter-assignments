@@ -1,3 +1,14 @@
+/*
+Problem Statement : 
+Initialize a list of Map with the following items:
+{"name":"Ali", "age":45, "marks":32 },
+{"name":"Noman", "age":32, "marks":23 },
+{"name":"Faisal", "age":41, "marks":43 },
+{"name":"Noman", "age":11, "marks":43 },
+{"name":"Faisal", "age":8, "marks":43 },
+Print those records whose age is greater than 30 and whose name is either Noman or Faisal
+*/
+
 void main() {
   List<Map> listOfMaps = [
     {"name": "Ali", "age": 45, "marks": 32},

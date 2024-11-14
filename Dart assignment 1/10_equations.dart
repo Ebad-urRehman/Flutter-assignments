@@ -1,3 +1,10 @@
+/*
+Problem Statement : 
+Write arrow functions for the following equations:
+A=a2+b4
+Z=p2+5t+A
+*/
+
 import 'dart:math';
 
 void main() {

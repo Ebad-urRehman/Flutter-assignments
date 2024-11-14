@@ -1,3 +1,9 @@
+/*
+Problem Statement :
+Create a small calculator application using typedef functions performing these operations, add,
+subtract, multiply, and divide.
+*/
+
 void main() {
   int add(int a, int b) => a + b;
   int subtract(int a, int b) => a - b;
