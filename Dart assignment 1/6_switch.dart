@@ -40,3 +40,39 @@ void main() {
       print('Invalid Marks');
   }
 }
+
+void simplerApproach({required int marks}) {
+  String grade;
+
+  switch (marks ~/ 10) {
+    case 10:
+    case 9:
+      grade = 'A';
+      break;
+    case 8:
+    case 7:
+      grade = 'B';
+      break;
+    case 6:
+    case 5:
+      grade = 'C';
+      break;
+    case 4:
+    case 3:
+      grade = 'D';
+      break;
+    case 2:
+    case 1:
+    case 0:
+      grade = 'E';
+      break;
+    default:
+      grade = 'Invalid marks';
+  }
+  print('Grade is %=${grade}');
+}
+
+
+// simpler approach explained 
+/*Integer division ~/ marks by 10 gives us the integer value between 1 and 10 indicating
+marks between 1 and 100, and then we can use 10 cases to store correct value of grade and print it.*/

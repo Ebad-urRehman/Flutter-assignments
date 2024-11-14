@@ -58,10 +58,12 @@ void main() {
 ''');
   var input = stdin.readLineSync();
   var id = int.tryParse(input ?? '');
-  Student? studentToPrint = listOfStudents
-      .firstWhere((student) => student.id == id, orElse: () => null);
-  Teacher? teacherToPrint = listOfTeachers
-      .firstWhere((teacher) => teacher.id == id, orElse: () => null);
+  Student? studentToPrint = listOfStudents.firstWhere(
+      (student) => student.id == id,
+      orElse: () => Student(0, "Not Found", 0, 0, 0, DateTime.now()));
+  Teacher? teacherToPrint = listOfTeachers.firstWhere(
+      (teacher) => teacher.id == id,
+      orElse: () => Teacher(0, "Not Found", 0, 0, '', '', DateTime.now()));
   studentToPrint.displayInfo();
   teacherToPrint.displayInfo();
 }
